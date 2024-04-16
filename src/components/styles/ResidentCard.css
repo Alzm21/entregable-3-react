@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+.resident {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #072226;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resident_img {
+    position: relative;
+}
+
+.resident_status {
+    background-color: #072226;
+    position: absolute;
+    font-family: "Abel", sans-serif;
+    top: 10%;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.resident_dot {
+    background-color: gray;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.Alive{
+    background-color: green;
+}
+.Dead {
+    background-color: red;
+}
+
+.resident_line {
+    border: 1px solid #7777;
+    width: 80%;
+    margin: 10px;
+}
+
+.resident_list {
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+.resident_item {
+    display: flex;
+    flex-direction: column;
+    font-family: "Exo", sans-serif; 
+    font-weight: bold; 
+}
+
+.resident_item span:first-child {
+    padding-left: 20px;
+    color: gray;
+    font-weight: lighter;
+}
